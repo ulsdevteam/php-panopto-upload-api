@@ -25,4 +25,4 @@ $client->finishSession($session);
 Copyright University of Pittsburgh.
 
 Freely licensed for reuse under GNU General Public
-License v2.
+License v2 (or, at your option, any later version).
