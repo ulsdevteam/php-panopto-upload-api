@@ -26,3 +26,5 @@ Copyright University of Pittsburgh.
 
 Freely licensed for reuse under GNU General Public
 License v2 (or, at your option, any later version).
+
+Distributed packages which bundle the dependencies use GPL v3 for this code, for compatiblity with the Apache 2 license of the AWS SDK and the MIT license of Guzzle.
