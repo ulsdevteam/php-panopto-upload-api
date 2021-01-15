@@ -14,7 +14,7 @@ use GuzzleHttp\Client as HttpClient;
 class ClientUnauthorizedException extends \Exception {}
 class BadApiCallException extends \Exception {}
 
-// Version 0.1.0
+// Version 1.0.0
 
 /**
  * Client class responsible for authenticating and creating sessions.
