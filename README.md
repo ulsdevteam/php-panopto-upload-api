@@ -13,7 +13,7 @@ $password = 'password';
 $folder_id = 'folder id';
 
 $client = new \PanoptoUpload\Client($host);
-$client->authorize($client_id, $client_secret, $username, $password);
+$client->authenticate($client_id, $client_secret, $username, $password);
 $session = $client->newSession($folder_id);
 $session->uploadFile('manifest.xml');
 $session->uploadFile('video.mp4');

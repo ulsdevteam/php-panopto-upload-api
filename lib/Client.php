@@ -61,8 +61,8 @@ class Client {
             'auth' => [$client_id, $client_secret],
             'form_params' => array(
                 'grant_type' => 'password',
-                'username' => urlencode(strtolower($username)),
-                'password' => urlencode($password),
+                'username' => strtolower($username),
+                'password' => $password,
                 'scope' => 'api'
             )
         ));
